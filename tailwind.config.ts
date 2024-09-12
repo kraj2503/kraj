@@ -11,6 +11,14 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'oil-black': '#0C0C0C',
+        'oxford-blue': '#212A37',
+  
+      },
+      textColor: {
+        primary: "#F8FAFC",  // Example for light text
+        secondary: "#94A3B8", // Lighter gray for subtitles
+        danger: "#EF4444",    // Red for error messages
       },
     },
   },

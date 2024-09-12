@@ -3,9 +3,9 @@ import Appbar from "../components/Appbar";
 
 export default function Home() {
   return (
-   <>
-<Appbar/>
-<AboutMe/>
-   </>
+    <>
+      <Appbar />
+      <AboutMe />
+    </>
   );
 }
