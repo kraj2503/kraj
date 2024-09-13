@@ -2,7 +2,7 @@ import Image from "next/image";
 import me from "@/Assets/Kshitiz_raj.jpg";
 export default function AboutMe() {
   return (
-    <div className="bg-oxford-blue flex justify-around h-screen">
+    <div className="bg-oxford-blue flex justify-around h-screen ">
       <div className=" flex flex-col justify-center pb-32">
 
 

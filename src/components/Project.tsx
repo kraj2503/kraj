@@ -1,22 +1,41 @@
-type props={
-    image:string,
-    title:string,
-    discription:string
-    link:string
-}
+import Image, { StaticImageData } from "next/image";
 
-export default function Project(props:props) {
+type Props = {
+  image: StaticImageData;
+  title: string;
+  description: string;
+  link: string;
+};
+
+export default function Project(props: Props) {
   return (
-    <div className="pt-32 ">
-    
-{props.discription}
-{props.discription}
-{props.discription}
-{props.discription}
-{props.discription}
-{props.discription}
-      
-  
+    <div className="pt-32 text-justify">
+     <div className="text-primary text-3xl flex justify-center hover:underline hover:pointer hover:text-blue-600"
+        >
+
+      <a
+        href={props.link}
+        target="_blank"
+        >
+        {props.title}
+      </a>
+        </div>
+
+      <div className="grid grid-cols-4  pt-14">
+        <div className="text-xl text-secondary col-span-2 pl-40 ">
+          {props.description}
+        </div>
+        <div className="col-span-2 flex justify-center pr-20 ">
+          <Image
+            className="rounded-lg"
+            src={props.image}
+            width={400}
+            height={600}
+            alt="Project image"
+            style={{ objectFit: "cover" }}
+          />
+        </div>
+      </div>
     </div>
   );
 }
