@@ -1,27 +1,56 @@
+import Link from "next/link";
+
+
+
 export default function Appbar() {
-  return (
-    <div className="flex justify-around py-3  sticky top-0 bg-oxford-blue  border-b border-emerald-500 font-mono font-semibold text-lg text-primary ">
+
+  // const [isNavbarFixed,setIsNavbarFixed] = useState(false);
+
+  // useEffect(()=>{
+  //   const handleScroll = ()=>{
+  //     if(window.scrollY>100){
+  //       setIsNavbarFixed(true)
+  //       console.log("fasle");
+  //     } else{
+  //       setIsNavbarFixed(false)
+  //     }
+  //   };
+  // window.addEventListener('scroll',handleScroll);
+  // return ()=>{
+  //   window.removeEventListener('scroll',handleScroll)
+  // }
+  // })
+  
+  
+  //   return ( //sticky top-0
+  //     <div className={` flex justify-around py-3 ${isNavbarFixed ? 'fixed top-0' : ''}  bg-oxford-blue  border-b
+  //     border-emerald-500 font-mono font-semibold text-lg text-primary `}>
+
+
+  return ( //sticky top-0
+    <div className=" flex justify-around py-3 sticky top-0  bg-smoky-black  border-b
+    border-emerald-500 font-mono font-semibold text-lg text-primary ">
       <div className=" flex px-5 py-2 ">Kshitiz</div>
       <div>
         <div className="  flex justify-end  -mr-40">
-          <button id="about" className={Appbuttons}>
+          <Link href="#about" className={Appbuttons}>
             About
-          </button>
-          <button id="projects" className={Appbuttons}>
+          </Link>
+          <Link href="#projects" className={Appbuttons}>
             Projects
-          </button>
-          <button id="skills" className={Appbuttons}>
+          </Link>
+          <Link href="#skills" className={Appbuttons}>
             Skills
-          </button>
-          <button id="experience" className={Appbuttons}>
+          </Link>
+          <Link href="#experience" className={Appbuttons}>
             Experience
-          </button>
-          <button id="education" className={Appbuttons}>
+          </Link>
+          <Link href="#education" className={Appbuttons}>
             Education
-          </button>
-          <button id="contact" className={Appbuttons}>
+          </Link>
+          <Link href="#contact" className={Appbuttons}>
             Contact me
-          </button>
+          </Link>
         </div>
       </div>
     </div>
