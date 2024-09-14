@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <div id="projects">
       <div className="  py-12">
-        <div className="flex justify-center text-primary text-5xl p-8 font-mono hover:underline bg-smoky-black">
+        <div className="flex justify-center text-primary text-5xl p-8 font-mono hover:underline bg-smoky-black underline-offset-8">
           Projects
         </div>
 

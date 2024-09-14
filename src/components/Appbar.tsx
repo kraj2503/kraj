@@ -42,9 +42,9 @@ export default function Appbar() {
           <Link href="#skills" className={Appbuttons}>
             Skills
           </Link>
-          <Link href="#experience" className={Appbuttons}>
+          {/* <Link href="#experience" className={Appbuttons}>
             Experience
-          </Link>
+          </Link> */}
           <Link href="#education" className={Appbuttons}>
             Education
           </Link>

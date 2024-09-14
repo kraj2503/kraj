@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Kshitiz Raj",
+  title: "Portfolio prototype",
   description: "Portfolio website of Kshitiz Raj",
 };
 

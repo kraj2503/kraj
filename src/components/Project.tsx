@@ -26,14 +26,20 @@ export default function Project(props: Props) {
           {props.description}
         </div>
         <div className="col-span-2 flex justify-center pr-20 ">
+        <a
+        href={props.link}
+        target="_blank"
+        >
+       
           <Image
-            className="rounded-lg"
+            className="max-w-md rounded-xl  transition duration-300 ease-in-out hover:scale-110"
             src={props.image}
             width={400}
             height={600}
             alt="Project image"
             style={{ objectFit: "cover" }}
-          />
+            />
+            </a>
         </div>
       </div>
     </div>
