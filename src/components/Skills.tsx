@@ -1,12 +1,11 @@
+import Heading from "./Heading";
 import Skill from "./Skill";
 
 export default function Skills() {
   return (
     <div id="skills">
       <div className="  py-12">
-        <div className="flex justify-center text-primary text-5xl p-8 font-mono hover:underline bg-smoky-black underline-offset-8">
-          Skills
-        </div>
+       <Heading title={"Skills"}/>
         <div className="flex justify-around text-primary mt-10 ">
           <div className={skillsTab}>
             <div className={skillsTabHeading}>Languages</div>

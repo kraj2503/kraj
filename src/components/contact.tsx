@@ -9,7 +9,7 @@ export default function contact() {
         </div>
         <div className="flex justify-around pt-32">
           <a
-            className=" flex px-5 text-oil-black   items-center justify-center rounded-md bg-slate-200 shadow-lg  hover:scale-110  hover:border-blue-300 hover:border-2  transition duration-700 ease-in-out "
+            className=" flex px-5 text-oil-black   items-center justify-center rounded-md bg-slate-100 shadow-lg  hover:scale-110 transition duration-700 ease-in-out "
             href="https://x.com/_kshitiz_raj"
             target="_blank"
           >
@@ -26,13 +26,13 @@ export default function contact() {
                 fill="black"
               />
             </svg>
-            <div className="underline underline-offset-4 p-1 hover:text-blue-800 transition duration-300">
+            <div className="underline underline-offset-4 p-1 hover:text-blue-500 transition duration-300">
               _kshitiz_raj
             </div>
           </a>
 
           <a
-            className="flex p-3 text-primary   items-center justify-center rounded-md bg-oil-black shadow-lg  hover:scale-110 hover:border-2 hover:border-emerald-500  transition duration-700 ease-in-out "
+            className="flex p-3 text-primary   items-center justify-center rounded-md bg-oil-black shadow-lg  hover:scale-110  transition duration-700 ease-in-out "
             href="https://www.linkedin.com/in/kshitiz-raj-2503"
             target="_blank"
           >
@@ -56,17 +56,14 @@ export default function contact() {
             </div>
           </a>
 
-          <a className="flex px-4 text-oil-black   items-center justify-center rounded-md bg-slate-200 shadow-lg  hover:scale-110  hover:border-blue-300 hover:border-2  transition duration-700 ease-in-out "
-          href="https://github.com/kraj2503"
-          target="_blank"
-        >
-          
-          
-
-            <Image src={github} alt=""
-            width={30} />
-            <div className="flex flex-col justify-center pl-2">
-            kraj2503
+          <a
+            className="flex px-4 text-oil-black   items-center justify-center rounded-md bg-slate-200 shadow-lg  hover:scale-110 transition duration-700 ease-in-out "
+            href="https://github.com/kraj2503"
+            target="_blank"
+          >
+            <Image src={github} alt="" width={30} />
+            <div className="flex flex-col justify-center pl-2 underline   hover:text-blue-600 underline-offset-4">
+              kraj2503
             </div>
           </a>
         </div>

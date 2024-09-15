@@ -1,3 +1,4 @@
+import Heading from "./Heading";
 import Project from "./Project";
 import img1 from '@/Assets/ss.png'
 export default function Projects() {
@@ -5,9 +6,7 @@ export default function Projects() {
   return (
     <div id="projects">
       <div className="  py-12">
-        <div className="flex justify-center text-primary text-5xl p-8 font-mono hover:underline bg-smoky-black underline-offset-8">
-          Projects
-        </div>
+        <Heading title={"Projects"} />
 
         <Project
         link={"https://kshitizraj.com"}

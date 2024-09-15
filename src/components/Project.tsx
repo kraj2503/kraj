@@ -10,7 +10,7 @@ type Props = {
 export default function Project(props: Props) {
   return (
     <div className="pt-32 text-justify">
-     <div className="text-primary text-3xl flex justify-center hover:underline hover:pointer hover:text-blue-600"
+     <div className="text-primary text-3xl flex justify-center hover:underline hover:pointer hover:text-blue-600 transition duration-300"
         >
 
       <a
@@ -32,7 +32,7 @@ export default function Project(props: Props) {
         >
        
           <Image
-            className="max-w-md rounded-xl  transition duration-300 ease-in-out hover:scale-110"
+            className="max-w-md rounded-xl  transition duration-300 ease-in-out hover:scale-110 hover:opacity-80"
             src={props.image}
             width={400}
             height={600}
