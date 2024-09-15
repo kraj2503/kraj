@@ -27,14 +27,14 @@ export default function Appbar() {
           </Link>
 
           <div className="flex justify-center ">
-            <Link
+            <a
               href="/kshitiz_raj.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className={Appbuttons}
             >
               Resume
-            </Link>
+            </a>
           </div>
         </div>
       </div>
