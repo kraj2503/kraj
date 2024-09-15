@@ -1,5 +1,6 @@
 import github from "@/Assets/icons/github-mark.png";
 import Image from "next/image";
+import email from "@/Assets/icons/email.png"
 export default function contact() {
   return (
     <div id="contact">
@@ -8,8 +9,7 @@ export default function contact() {
           Contact
         </div>
         <div className="flex justify-around pt-32">
-          <a
-            className=" flex px-5 text-oil-black   items-center justify-center rounded-md bg-slate-100 shadow-lg  hover:scale-110 transition duration-700 ease-in-out "
+          <a className={button}
             href="https://x.com/_kshitiz_raj"
             target="_blank"
           >
@@ -26,13 +26,12 @@ export default function contact() {
                 fill="black"
               />
             </svg>
-            <div className="underline underline-offset-4 p-1 hover:text-blue-500 transition duration-300">
+            <div className="underline underline-offset-4 p-1  transition duration-300">
               _kshitiz_raj
             </div>
           </a>
 
-          <a
-            className="flex p-3 text-primary   items-center justify-center rounded-md bg-oil-black shadow-lg  hover:scale-110  transition duration-700 ease-in-out "
+         <a className={button}
             href="https://www.linkedin.com/in/kshitiz-raj-2503"
             target="_blank"
           >
@@ -51,18 +50,31 @@ export default function contact() {
                 fill="#006699"
               />
             </svg>
-            <div className="underline underline-offset-4 p-1 hover:text-blue-600 transition duration-300">
+            <div className="underline underline-offset-4 p-1 transition duration-300">
               kshitiz-raj-2503
             </div>
           </a>
 
-          <a
-            className="flex px-4 text-oil-black   items-center justify-center rounded-md bg-slate-200 shadow-lg  hover:scale-110 transition duration-700 ease-in-out "
+           <a className={button}
             href="https://github.com/kraj2503"
             target="_blank"
           >
             <Image src={github} alt="" width={30} />
-            <div className="flex flex-col justify-center pl-2 underline   hover:text-blue-600 underline-offset-4">
+            <div className="flex flex-col justify-center pl-2 underline    underline-offset-4">
+              kraj2503
+            </div>
+          </a>
+          
+          
+          
+          
+          
+          <a className={button}
+            href="mailto:rajkshitiz10@gmail.com"
+            target="_blank"
+          >
+            <Image src={email} alt="" width={30} />
+            <div className="flex flex-col justify-center pl-2 underline  underline-offset-4">
               kraj2503
             </div>
           </a>
@@ -71,3 +83,6 @@ export default function contact() {
     </div>
   );
 }
+
+
+const button = "flex px-5 py-3 text-gray-300 bg-gray-700 items-center justify-center rounded-md shadow-md hover:bg-gray-500 hover:text-gray-200 transition duration-300 ease-in-out";
