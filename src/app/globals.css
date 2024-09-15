@@ -33,7 +33,7 @@
     overflow:hidden;
     /* border-right: 3px solid; */
     width: 0;
-    animation: typing 2s steps(20, end) forwards;
+    animation: typing 1s steps(20, end) forwards;
     line-height: 1.4;
   }
   .typewriter-delayed {
@@ -42,7 +42,7 @@
     overflow:hidden;
     /* border-right: 3px solid; */
     width: 0;
-    animation: typing 2s steps(20, end) forwards 2s;
+    animation: typing 1s steps(20, end) forwards 1s;
     line-height: 1.4;
   }
   .blinking {
