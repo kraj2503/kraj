@@ -1,4 +1,6 @@
 import Image from "next/image";
+import me from "@/Assets/Kshitiz_raj.jpg"
+
 export default function AboutMe() {
   return (
     <div className="bg-oxford-blue  h-screen grid grid-cols-2">
@@ -30,7 +32,7 @@ export default function AboutMe() {
         <div className="flex flex-col justify-center ">
           <Image
             className="rounded-xl "
-            src="/kshitiz_raj.jpg"
+            src={me}
             width={400}
             height={100}
             quality={100}
