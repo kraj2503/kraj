@@ -1,14 +1,13 @@
 import Link from "next/link";
 
-
-
 export default function Appbar() {
-
-
-  return ( //sticky top-0
-    <div className=" flex justify-around py-3 sticky top-0  bg-smoky-black  border-b
-    border-emerald-500 font-mono font-semibold text-lg text-primary ">
-      <a className=" flex px-5 py-2 hover:text-blue-500" href="#about">Kshitiz</a>
+  return (
+    //sticky top-0
+    <div
+      className=" flex justify-around py-3 sticky top-0  bg-smoky-black  border-b
+    border-emerald-500 font-mono font-semibold text-lg text-primary  z-50"
+    >
+      <div className=" flex px-5 py-2 ">Kshitiz</div>
       <div>
         <div className="  flex justify-end  -mr-40">
           <Link href="#about" className={Appbuttons}>
@@ -20,15 +19,23 @@ export default function Appbar() {
           <Link href="#skills" className={Appbuttons}>
             Skills
           </Link>
-          {/* <Link href="#experience" className={Appbuttons}>
-            Experience
-          </Link> */}
           {/* <Link href="#education" className={Appbuttons}>
             Education
-          </Link> */}
+            </Link> */}
           <Link href="#contact" className={Appbuttons}>
-            Contact me
+            Contact
           </Link>
+
+          <div className="flex justify-center ">
+            <Link
+              href="/kshitiz_raj.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={Appbuttons}
+            >
+              Resume
+            </Link>
+          </div>
         </div>
       </div>
     </div>

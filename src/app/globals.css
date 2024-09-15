@@ -50,4 +50,5 @@
     font-size: 1.1em; 
     margin-left: 5px; 
     opacity: 0.8; 
+    z-index: 10;
   }

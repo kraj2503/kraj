@@ -9,7 +9,7 @@ type Props = {
 
 export default function Project(props: Props) {
   return (
-    <div className="pt-32 text-justify">
+    <div className="pt-24 text-justify">
       <div className="text-primary text-3xl flex justify-center hover:underline hover:pointer hover:text-blue-600 transition duration-300">
         <a href={props.link} target="_blank">
           {props.title}
@@ -22,7 +22,7 @@ export default function Project(props: Props) {
         </div>
         <div className=" col-span-2 flex justify-center pr-20 items-center">
           <a href={props.link} target="_blank">
-            <div className=" flex flex-col justify-center">
+            <div className=" flex flex-col justify-center ">
               <Image
                 className="max-w-md rounded-xl  transition duration-300 ease-in-out hover:scale-110 hover:opacity-80"
                 src={props.image}
