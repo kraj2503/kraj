@@ -1,6 +1,4 @@
 import Image from "next/image";
-// import me from "@/Assets/Kshitiz_raj.jpg";
-
 export default function AboutMe() {
   return (
     <div className="bg-oxford-blue  h-screen grid grid-cols-2">
