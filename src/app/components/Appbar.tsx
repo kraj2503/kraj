@@ -3,13 +3,14 @@ import Link from "next/link";
 export default function Appbar() {
   return (
     //sticky top-0
+
     <div
-      className=" flex justify-around py-3 sticky top-0  bg-smoky-black  border-b
-    border-emerald-500 font-mono font-semibold text-lg text-primary  z-50"
+      className=" flex  justify- lg:justify-around py-3 sticky top-0 w-full bg-smoky-black  border-b
+    border-emerald-500 font-mono font-semibold lg:text-lg text-sm text-primary  z-50"
     >
-      <div className=" flex px-5 py-2 ">Kshitiz</div>
+      <div className=" hidden lg:flex lg:x-5 lg:py-2 lg:visible ">Kshitiz</div>
       <div>
-        <div className="  flex justify-end  -mr-40">
+        <div className="  flex lg:justify-end  -mr-40">
           <Link href="#about" className={Appbuttons}>
             About
           </Link>
@@ -19,8 +20,8 @@ export default function Appbar() {
           <Link href="#skills" className={Appbuttons}>
             Skills
           </Link>
-          {/* <Link href="#education" className={Appbuttons}>
-            Education
+          {/* <Link href="#Contact" className={Appbuttons}>
+            Contact
             </Link> */}
           <Link href="#contact" className={Appbuttons}>
             Contact
@@ -43,4 +44,4 @@ export default function Appbar() {
 }
 
 const Appbuttons =
-  "transition duration-700 ease-in-out hover:bg-emerald-400 hover:scale-110 hover:underline rounded-md px-4 py-2  ml-3 ";
+  "transition duration-700 ease-in-out hover:bg-emerald-400 hover:scale-110 hover:underline rounded-md lg:px-4 py-2  ml-3 sm:text-sm ";

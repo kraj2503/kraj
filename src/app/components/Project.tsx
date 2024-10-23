@@ -9,22 +9,19 @@ type Props = {
 
 export default function Project(props: Props) {
   return (
-    <div className="pt-24 text-justify">
-      <div className="text-primary text-3xl flex justify-center hover:underline hover:pointer hover:text-blue-600 transition duration-300">
+    <div className="pt-12 lg:pt-24 text-justify">
+      <div className="text-primary text-xl lg:text-4xl flex justify-center hover:underline hover:pointer hover:text-blue-600 transition duration-300">
         <a href={props.link} target="_blank">
           {props.title}
         </a>
       </div>
 
-      <div className="grid grid-cols-4  pt-14">
-        <div className="text-xl text-secondary col-span-2 pl-28 ">
-          {props.description}
-        </div>
-        <div className=" col-span-2 flex justify-center pr-20 items-center">
+      <div className="lg:grid grid-cols-4  pt-5 lg:pt-14">
+        <div className=" lg:col-span-2 flex justify-center scale-75 lg:scale-110 lg:pr-20 items-center lg:pl-8">
           <a href={props.link} target="_blank">
-            <div className=" flex flex-col justify-center ">
+            <div className=" flex lg:flex-col lg:justify-center  ">
               <Image
-                className="max-w-md rounded-xl  transition duration-300 ease-in-out hover:scale-110 hover:opacity-80"
+                className=" mb-5 lg:mb-0 lg:ml-0  lg:max-w-md rounded-xl  transition duration-300 ease-in-out hover:scale-110 hover:opacity-80 "
                 src={props.image}
                 width={500}
                 alt="Project image"
@@ -32,6 +29,9 @@ export default function Project(props: Props) {
               />
             </div>
           </a>
+        </div>
+        <div className=" text-sm lg:text-xl text-secondary lg:col-span-2 pl-6  pr-6 lg:pr-12 ">
+          {props.description}
         </div>
       </div>
     </div>

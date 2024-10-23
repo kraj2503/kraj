@@ -7,7 +7,7 @@ import paytm from "@/Assets/paytm.png"
 export default function Projects() {
   return (
     <div id="projects">
-      <div className="  py-12">
+      <div className=" py-8 lg:py-12">
         <Heading title={"Projects"} />
 
         <Project
