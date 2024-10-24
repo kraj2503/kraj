@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import { Viewport } from "next";
+
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -19,8 +19,8 @@ export const metadata: Metadata = {
     "Explore the portfolio of Kshitiz Raj, a passionate web developer showcasing skills in React, Next.js, and more.",
   keywords:
     "Kshitiz Raj, portfolio, web developer, React, Next.js, front-end development, programming, projects, skills, contact",
-  author: "Kshitiz Raj",
-  og: {
+  authors: [{ name: "Kshitiz Raj", url: "https://kshitizraj.com" }], 
+  openGraph: {
     title: "Kshitiz Raj - Portfolio",
     description:
       "Discover the work and projects of Kshitiz Raj, a web developer specializing in modern web technologies.",
@@ -29,14 +29,14 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "@_kshitiz_raj", // replace with your Twitter handle
+    site: "@_kshitiz_raj", 
     title: "Kshitiz Raj - Portfolio",
     description:
       "Explore Kshitiz Raj's portfolio showcasing web development skills and projects.",
   },
   icons: {
-    icon: "/favicon.ico", // Default favicon
-    apple: "/apple-touch-icon.png", // Apple touch icon
+    icon: "/favicon.ico", 
+    apple: "/apple-touch-icon.png", 
     other: [
       {
         rel: "icon",
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
       },
     ],
   },
-  manifest: "/site.webmanifest", // For PWA support
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({

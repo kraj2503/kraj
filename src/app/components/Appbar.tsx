@@ -6,7 +6,7 @@ export default function Appbar() {
       className=" flex lg:justify-around py-3 sticky top-0 w-full bg-smoky-black  border-b
     border-emerald-500 font-mono font-semibold lg:text-lg text-sm text-primary  z-50"
     >
-      <div className=" hidden lg:flex lg:x-5 lg:py-2 lg:visible ">Kshitiz</div>
+      <div className=" hidden lg:flex lg:x-5 lg:py-2 :visible ">Kshitiz</div>
       <div className="">
         <div className="  flex  lg:justify-end  -mr-40">
           <div className={smnavbar}>
