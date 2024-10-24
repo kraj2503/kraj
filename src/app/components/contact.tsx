@@ -1,15 +1,17 @@
 import github from "@/Assets/icons/github-mark.png";
 import Image from "next/image";
-import email from "@/Assets/icons/email.png"
+import email from "@/Assets/icons/email.png";
+import Heading from "./Heading";
 export default function contact() {
   return (
     <div id="contact">
-      <div className="  py-12">
-        <div className="flex justify-center text-primary text-5xl p-8 font-mono hover:underline bg-smoky-black underline-offset-8">
-          Contact
-        </div>
-        <div className="flex justify-around pt-32">
-          <a className={button}
+      <div className=" py-8 lg:py-12">
+        <Heading title={"Contacts"} />
+      </div>
+      <div className="lg:flex justify-around lg:py-10">
+        <div className={center}>
+          <a
+            className={button}
             href="https://x.com/_kshitiz_raj"
             target="_blank"
           >
@@ -30,8 +32,10 @@ export default function contact() {
               _kshitiz_raj
             </div>
           </a>
-
-         <a className={button}
+        </div>
+        <div className={center}>
+          <a
+            className={button}
             href="https://www.linkedin.com/in/kshitiz-raj-2503"
             target="_blank"
           >
@@ -54,8 +58,10 @@ export default function contact() {
               kshitiz-raj-2503
             </div>
           </a>
-
-           <a className={button}
+        </div>
+        <div className={center}>
+          <a
+            className={button}
             href="https://github.com/kraj2503"
             target="_blank"
           >
@@ -64,12 +70,11 @@ export default function contact() {
               kraj2503
             </div>
           </a>
-          
-          
-          
-          
-          
-          <a className={button}
+        </div>
+
+        <div className={center}>
+          <a
+            className={button}
             href="mailto:rajkshitiz10@gmail.com"
             target="_blank"
           >
@@ -84,5 +89,6 @@ export default function contact() {
   );
 }
 
-
-const button = "flex px-5 py-3 text-gray-300 bg-gray-700 items-center justify-center rounded-md shadow-md hover:bg-gray-500 hover:text-gray-200 transition duration-300 ease-in-out";
+const center = "flex justify-center my-3";
+const button =
+  "flex px-5 py-3 text-gray-300 bg-gray-700 items-center justify-center rounded-md shadow-md hover:bg-gray-500 hover:text-gray-200 transition duration-300 ease-in-out sm:w-3/6 lg:w-full mt-3 ";

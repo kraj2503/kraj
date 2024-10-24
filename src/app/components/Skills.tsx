@@ -5,8 +5,9 @@ export default function Skills() {
   return (
     <div id="skills">
       <div className="  py-12">
-       <Heading title={"Skills"}/>
-        <div className="flex justify-around text-primary mt-10 ">
+        <Heading title={"Skills"} />
+      </div>
+        <div className={tab}>
           <div className={skillsTab}>
             <div className={skillsTabHeading}>Languages</div>
 
@@ -30,62 +31,57 @@ export default function Skills() {
             </div>
           </div>
         </div>
-      </div>
-      <div className=" ">
-        {/* ----------------------- */}
+      <div className={tab}>
+        <div className={skillsTab}>
+          <div className={skillsTabHeading}>Backend Frameworks</div>
 
-        <div className="flex justify-around text-primary   ">
-          <div className={skillsTab}>
-            <div className={skillsTabHeading}>Backend Frameworks</div>
-
-            <div className={skillsTabGrid}>
-              <Skill title={"ExpressJS"} />
-              <Skill title={"JWT"} />
-              <Skill title={"Zod"} />
-              <Skill title={"Prisma"} />
-              <Skill title={"Node.js"} />
-              <Skill title={"Prisma"} />
-              <Skill title={"Hono"} />
-              <Skill title={"Axios"} />
-              <Skill title={"Flask"} />
-              {/* <Skill title={"OpenCV"} /> */}
-            </div>
-          </div>
-          <div className={skillsTab}>
-            <div className={skillsTabHeading}>Developer Tools</div>
-
-            <div className={skillsTabGrid}>
-              <Skill title={"Turborepo"} />
-              <Skill title={"Vite"} />
-              <Skill title={"Docker"} />
-              <Skill title={"Git"} />
-              <Skill title={"Postman"} />
-              <Skill title={"Notion"} />
-            </div>
+          <div className={skillsTabGrid}>
+            <Skill title={"ExpressJS"} />
+            <Skill title={"JWT"} />
+            <Skill title={"Zod"} />
+            <Skill title={"Prisma"} />
+            <Skill title={"Node.js"} />
+            <Skill title={"Prisma"} />
+            <Skill title={"Hono"} />
+            <Skill title={"Axios"} />
+            <Skill title={"Flask"} />
+            {/* <Skill title={"OpenCV"} /> */}
           </div>
         </div>
+        <div className={skillsTab}>
+          <div className={skillsTabHeading}>Developer Tools</div>
 
-        <div className="flex justify-around text-primary mt-10 ">
-          <div className={skillsTab}>
-            <div className={skillsTabHeading}>Database</div>
-
-            <div className={skillsTabGrid}>
-              <Skill title={"PostgreSQL"} />
-              <Skill title={"MySQL"} />
-              <Skill title={"SQL Server"} />
-              <Skill title={"MongoDb"} />
-            </div>
+          <div className={skillsTabGrid}>
+            <Skill title={"Turborepo"} />
+            <Skill title={"Vite"} />
+            <Skill title={"Docker"} />
+            <Skill title={"Git"} />
+            <Skill title={"Postman"} />
+            <Skill title={"Notion"} />
           </div>
-          <div className={skillsTab}>
-            <div className={skillsTabHeading}>Cloud Services</div>
+        </div>
+      </div>
 
-            <div className={skillsTabGrid}>
-              <Skill title={"Cloudflare"} />
-              <Skill title={"AWS EC2"} />
-              <Skill title={"AWS S3"} />
-              <Skill title={"Vercel"} />
-              <Skill title={"Prisma"} />
-            </div>
+      <div className={tab}>
+        <div className={skillsTab}>
+          <div className={skillsTabHeading}>Database</div>
+
+          <div className={skillsTabGrid}>
+            <Skill title={"PostgreSQL"} />
+            <Skill title={"MySQL"} />
+            <Skill title={"SQL Server"} />
+            <Skill title={"MongoDb"} />
+          </div>
+        </div>
+        <div className={skillsTab}>
+          <div className={skillsTabHeading}>Cloud Services</div>
+
+          <div className={skillsTabGrid}>
+            <Skill title={"Cloudflare"} />
+            <Skill title={"AWS EC2"} />
+            <Skill title={"AWS S3"} />
+            <Skill title={"Vercel"} />
+            <Skill title={"Prisma"} />
           </div>
         </div>
       </div>
@@ -93,7 +89,8 @@ export default function Skills() {
   );
 }
 
-const skillsTab = "border-2   border-emerald-500 w-2/6";
+const tab = "lg:flex justify-around text-primary lg:mt-10 px-5 lg:px-0";
+const skillsTab = "border-2  border-emerald-500  lg:w-2/6  mt-10 lg:mt-0";
 const skillsTabHeading =
   "border-b py-2 underline underline-offset-4 decoration-dashed flex justify-center   border-emerald-500";
 const skillsTabGrid = "grid grid-cols-3 ";
