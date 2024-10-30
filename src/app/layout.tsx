@@ -14,29 +14,29 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Kshitiz Raj - Portfolio",
+  title: "Kshitiz Raj",
   description:
-    "Explore the portfolio of Kshitiz Raj, a passionate web developer showcasing skills in React, Next.js, and more.",
+    "Explore the portfolio of Kshitiz Raj, a Technology Graduate Developer at Barclays with expertise in machine learning, React, Next.js, and modern web development.",
   keywords:
-    "Kshitiz Raj, portfolio, web developer, React, Next.js, front-end development, programming, projects, skills, contact",
-  authors: [{ name: "Kshitiz Raj", url: "https://kshitizraj.com" }], 
+    "Kshitiz Raj, Barclays, Technology Graduate Developer, portfolio, web developer, machine learning, React, Next.js, front-end development, programming, projects, skills, contact",
+  authors: [{ name: "Kshitiz Raj", url: "https://kshitizraj.com" }],
   openGraph: {
-    title: "Kshitiz Raj - Portfolio",
+    title: "Kshitiz Raj",
     description:
-      "Discover the work and projects of Kshitiz Raj, a web developer specializing in modern web technologies.",
+      "Discover the work of Kshitiz Raj, Technology Graduate Developer at Barclays, showcasing skills in machine learning, modern web technologies, and innovative projects.",
     url: "https://kshitizraj.com",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    site: "@_kshitiz_raj", 
-    title: "Kshitiz Raj - Portfolio",
+    site: "@_kshitiz_raj",
+    title: "Kshitiz Raj",
     description:
-      "Explore Kshitiz Raj's portfolio showcasing web development skills and projects.",
+      "Explore the portfolio of Kshitiz Raj, a Barclays Technology Graduate Developer specializing in machine learning and web development.",
   },
   icons: {
-    icon: "/favicon.ico", 
-    apple: "/apple-touch-icon.png", 
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
     other: [
       {
         rel: "icon",
@@ -66,6 +66,7 @@ export const metadata: Metadata = {
   },
   manifest: "/site.webmanifest",
 };
+
 
 export default function RootLayout({
   children,

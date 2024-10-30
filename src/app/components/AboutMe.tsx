@@ -1,5 +1,5 @@
 import Image from "next/image";
-import me from "@/Assets/Kshitiz_raj.jpg"
+import me from "@/Assets/Kshitiz_raj.jpg";
 
 export default function AboutMe() {
   return (
@@ -19,12 +19,14 @@ export default function AboutMe() {
         </span>
 
         <div className="text-secondary text-sm lg:text-xl text-justify pt-10 lg:pt-28">
-          I am a full-stack developer with expertise in TypeScript, JavaScript,
-          and Python. I specialize in building modern web applications using
-          frameworks like React, Next.js, and Express.js. With experience in
-          databases like PostgreSQL and MySQL, I focus on creating scalable,
-          secure, and user-friendly solutions that integrate front-end,
-          back-end, and cloud technologies.
+          I am a Full-Stack Developer currently working as a Technology Graduate
+          Developer at Barclays, specializing in Machine Learning and modern web
+          development. With expertise in TypeScript, JavaScript, and Python, I
+          build scalable and secure web applications using frameworks like
+          React, Next.js, and Express.js. My experience extends to databases
+          like PostgreSQL and MySQL and cloud platforms, where I focus on
+          creating user-friendly solutions that integrate seamlessly across
+          front-end, back-end, and cloud services.
         </div>
       </div>
 
@@ -36,7 +38,7 @@ export default function AboutMe() {
             width={400}
             height={100}
             quality={100}
-            alt="Picture of the author"
+            alt="Kshitiz Raj - Full-Stack Developer"
           />
         </div>
       </div>
