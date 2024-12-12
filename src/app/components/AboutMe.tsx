@@ -19,8 +19,7 @@ export default function AboutMe() {
         </span>
 
         <div className="text-secondary text-sm lg:text-xl text-justify pt-10 lg:pt-28">
-          I am a Full-Stack Developer currently working as a Technology Graduate
-          Developer at Barclays, specializing in Machine Learning and modern web
+          I am a Full-Stack Developer specializing in Machine Learning and modern web
           development. With expertise in TypeScript, JavaScript, and Python, I
           build scalable and secure web applications using frameworks like
           React, Next.js, and Express.js. My experience extends to databases
