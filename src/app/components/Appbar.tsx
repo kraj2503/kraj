@@ -2,34 +2,34 @@ import Link from "next/link";
 
 export default function Appbar() {
   return (
-    <div
+    <nav
       className=" flex lg:justify-around py-3 sticky top-0 w-full bg-smoky-black  border-b
     border-emerald-500 font-mono font-semibold lg:text-lg text-sm text-primary  z-50"
     >
-      <div className=" hidden lg:flex lg:x-5 lg:py-2 :visible ">Kshitiz</div>
-      <div className="">
-        <div className="  flex  lg:justify-end  -mr-40">
-          <div className={smnavbar}>
+      <nav className=" hidden lg:flex lg:x-5 lg:py-2 :visible ">Kshitiz</nav>
+      <nav className="">
+        <nav className="  flex  lg:justify-end  -mr-40">
+          <nav className={smnavbar}>
             <Link href="#about" className={Appbuttons}>
               About
             </Link>
-          </div>
-          <div className={smnavbar}>
+          </nav>
+          <nav className={smnavbar}>
             <Link href="#projects" className={Appbuttons}>
               Projects
             </Link>
-          </div>
-          <div className={smnavbar}>
+          </nav>
+          <nav className={smnavbar}>
             <Link href="#skills" className={Appbuttons}>
               Skills
             </Link>
-          </div>
-          <div className={smnavbar}>
+          </nav>
+          <nav className={smnavbar}>
             <Link href="#contact" className={Appbuttons}>
               Contact
             </Link>
-          </div>
-          <div className={smnavbar}>
+          </nav>
+          <nav className={smnavbar}>
             <a
               href="/Kshitiz_Raj.pdf"
               target="_blank"
@@ -38,10 +38,10 @@ export default function Appbar() {
             >
               Resume
             </a>
-          </div>
-        </div>
-      </div>
-    </div>
+          </nav>
+        </nav>
+      </nav>
+    </nav>
   );
 }
 
