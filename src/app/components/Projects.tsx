@@ -1,5 +1,6 @@
 import Heading from "./Heading";
 import Project from "./Project";
+import muzly from "@/Assets/muzly.png"
 import StreamServer from "@/Assets/streamServer.png"
 import blogit from "@/Assets/blogit.png";
 import tictactoe from "@/Assets/tic-tac-toe.png"
@@ -9,6 +10,15 @@ export default function Projects() {
     <div id="projects">
       <div className=" py-8 lg:py-12">
         <Heading title={"Projects"} />
+
+        <Project
+          link={"https://muzly.kshitizraj.com/"}
+          image={muzly}
+          title={"Muzly"}
+          description={
+            "Muzly is an innovative social streaming platform that revolutionizes the way users experience YouTube content together. Built with cutting-edge technologies including Next.js and NextAuth, this sophisticated SaaS application enables seamless synchronized video playback across multiple users. Its distinctive democratic voting system empowers both creators and viewers to influence the content flow, with the highest-voted videos automatically advancing in the queue. This dynamic, community-driven approach creates an engaging shared viewing experience, transforming passive content consumption into an interactive social activity that brings people together through their shared interests."
+          }
+        />
 
         <Project
           link={"https://medium.projects.kshitizraj.com/"}
