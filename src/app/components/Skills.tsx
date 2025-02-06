@@ -49,6 +49,8 @@ export default function Skills() {
             <Skill title={"GraphQL"} />
             <Skill title={"REST API"} />
             <Skill title={"WebSockets"} />
+            <Skill title={"gRPC"} />
+            <Skill title={"Protocol Buffers (Protobufs)"} />
             {/* <Skill title={"OpenCV"} /> */}
           </div>
         </div>
