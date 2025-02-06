@@ -28,6 +28,7 @@ export default function Skills() {
               <Skill title={"Tailwind CSS"} />
               <Skill title={"HTML"} />
               <Skill title={"CSS"} />
+              <Skill title={"Apollo Client"} />
             </div>
           </div>
         </div>
@@ -42,9 +43,12 @@ export default function Skills() {
             <Skill title={"Prisma"} />
             <Skill title={"Node.js"} />
             <Skill title={"Prisma"} />
-            <Skill title={"Hono"} />
+            {/* <Skill title={"Hono"} /> */}
             <Skill title={"Axios"} />
             <Skill title={"Flask"} />
+            <Skill title={"GraphQL"} />
+            <Skill title={"REST API"} />
+            <Skill title={"WebSockets"} />
             {/* <Skill title={"OpenCV"} /> */}
           </div>
         </div>
@@ -52,12 +56,13 @@ export default function Skills() {
           <div className={skillsTabHeading}>Developer Tools</div>
 
           <div className={skillsTabGrid}>
-            <Skill title={"Turborepo"} />
-            <Skill title={"Vite"} />
-            <Skill title={"Docker"} />
             <Skill title={"Git"} />
             <Skill title={"Postman"} />
+            <Skill title={"Vite"} />
+            <Skill title={"Docker"} />
+            <Skill title={"Jest"} />
             <Skill title={"Notion"} />
+            <Skill title={"Turborepo"} />
           </div>
         </div>
       </div>
