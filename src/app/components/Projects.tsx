@@ -3,7 +3,7 @@ import Project from "./Project";
 import muzly from "@/Assets/muzly.png"
 import StreamServer from "@/Assets/streamServer.png"
 import blogit from "@/Assets/blogit.png";
-import tictactoe from "@/Assets/tic-tac-toe.png"
+// import tictactoe from "@/Assets/tic-tac-toe.png"
 import trade from "@/Assets/trade.png"
 import paytm from "@/Assets/paytm.png"
 export default function Projects() {
