@@ -41,7 +41,7 @@ export default function Skills() {
             <Skill title={"JWT"} />
             <Skill title={"Zod"} />
             <Skill title={"Prisma"} />
-            <Skill title={"Node.js"} />
+            <Skill title={"Kafka"} />
             <Skill title={"Prisma"} />
             {/* <Skill title={"Hono"} /> */}
             <Skill title={"Axios"} />
@@ -50,7 +50,9 @@ export default function Skills() {
             <Skill title={"REST API"} />
             <Skill title={"WebSockets"} />
             <Skill title={"gRPC"} />
-            <Skill title={"Protocol Buffers (Protobufs)"} />
+            <Skill title={"Node / Bun"} />
+            <Skill title={"Protocol Buffers"} />
+            {/* <Skill title={"Protocol Buffers (Protobufs)"} /> */}
             {/* <Skill title={"OpenCV"} /> */}
           </div>
         </div>
