@@ -1,4 +1,5 @@
-import type { Metadata } from "next";
+
+import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
@@ -16,73 +17,55 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Kshitiz Raj",
   description:
-    "Explore the portfolio of Kshitiz Raj, a Technology Graduate Developer at Barclays with expertise in machine learning, React, Next.js, and modern web development.",
+    "Explore the portfolio of Kshitiz Raj, a Software Engineer at Barclays with expertise in machine learning, scalable backend systems, and modern web development.",
   keywords:
-    "Kshitiz Raj, Barclays, Technology Graduate Developer, portfolio, web developer, machine learning, React, Next.js, front-end development, programming, projects, skills, contact",
+    "Kshitiz Raj, Software Engineer, Barclays, portfolio, full-stack developer, backend engineer, machine learning, Node.js, React, Next.js, PostgreSQL, Redis, cloud development",
   authors: [{ name: "Kshitiz Raj", url: "https://kshitizraj.com" }],
   openGraph: {
     title: "Kshitiz Raj",
     description:
-      "Discover the work of Kshitiz Raj, Technology Graduate Developer at Barclays, showcasing skills in machine learning, modern web technologies, and innovative projects.",
+      "Discover the work of Kshitiz Raj, Software Engineer at Barclays, showcasing skills in machine learning, full-stack development, and scalable systems.",
     url: "https://kshitizraj.com",
     type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Kshitiz Raj - Software Engineer Portfolio",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     site: "@_kshitiz_raj",
     title: "Kshitiz Raj",
     description:
-      "Explore the portfolio of Kshitiz Raj, a Barclays Technology Graduate Developer specializing in machine learning and web development.",
+      "Portfolio of Kshitiz Raj, Software Engineer at Barclays, specializing in machine learning and full-stack development.",
+    images: ["/og-image.png"],
   },
   icons: {
     icon: "/favicon.ico",
     apple: "/apple-touch-icon.png",
-    other: [
-      {
-        rel: "icon",
-        url: "/favicon-32x32.png",
-        sizes: "32x32",
-        type: "image/png",
-      },
-      {
-        rel: "icon",
-        url: "/favicon-16x16.png",
-        sizes: "16x16",
-        type: "image/png",
-      },
-      {
-        rel: "icon",
-        url: "/android-chrome-192x192.png",
-        sizes: "192x192",
-        type: "image/png",
-      },
-      {
-        rel: "icon",
-        url: "/android-chrome-512x512.png",
-        sizes: "512x512",
-        type: "image/png",
-      },
-    ],
   },
   manifest: "/site.webmanifest",
 };
 
+// ✅ Move viewport out of metadata
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#212A37",
+};
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html lang="en">
-      <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body>{children}</body>
     </html>
   );
 }
