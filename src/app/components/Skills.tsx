@@ -40,7 +40,6 @@ export default function Skills() {
             <Skill title={"ExpressJS"} />
             <Skill title={"JWT"} />
             <Skill title={"Zod"} />
-            <Skill title={"Prisma"} />
             <Skill title={"Kafka"} />
             <Skill title={"Prisma"} />
             {/* <Skill title={"Hono"} /> */}
@@ -90,7 +89,6 @@ export default function Skills() {
             <Skill title={"AWS EC2"} />
             <Skill title={"AWS S3"} />
             <Skill title={"Vercel"} />
-            <Skill title={"Prisma"} />
           </div>
         </div>
       </div>
