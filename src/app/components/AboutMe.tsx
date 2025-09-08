@@ -1,5 +1,6 @@
 import Image from "next/image";
-import me from "@/Assets/Kshitiz_raj.jpg";
+// import me from "@/Assets/Kshitiz_raj.jpg";
+import me from "@/Assets/_DSC0230.png"
 
 export default function AboutMe() {
   return (
@@ -32,10 +33,10 @@ export default function AboutMe() {
       <div className="pl-5 col-span-2 flex justify-center pr-5 lg:pr-0 ">
         <div className="flex flex-col justify-center ">
           <Image
-            className="rounded-xl "
+            className="rounded-2xl "
             src={me}
             width={400}
-            height={100}
+            // height={100}
             quality={100}
             alt="Kshitiz Raj - Full-Stack Developer"
           />
