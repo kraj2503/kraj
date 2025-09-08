@@ -1,6 +1,6 @@
 import Image from "next/image";
 // import me from "@/Assets/Kshitiz_raj.jpg";
-import me from "@/Assets/_DSC0230.png"
+import me from "@/Assets/_DSC0230.png";
 
 export default function AboutMe() {
   return (
@@ -20,13 +20,24 @@ export default function AboutMe() {
         </span>
 
         <div className="text-secondary text-sm lg:text-xl text-justify pt-10 lg:pt-28">
-          I am a Full-Stack Developer specializing in Machine Learning and modern web
+          {/* I am a Full-Stack Developer specializing in Machine Learning and modern web
           development. With expertise in TypeScript, JavaScript, and Python, I
           build scalable and secure web applications using frameworks like
           React, Next.js, and Express.js. My experience extends to databases
           like PostgreSQL and MySQL and cloud platforms, where I focus on
           creating user-friendly solutions that integrate seamlessly across
-          front-end, back-end, and cloud services.
+          front-end, back-end, and cloud services. */}
+          I’m a Software Engineer at Barclays, where I build machine
+          learning–driven solutions and scalable systems. Within seven months of
+          joining, I was promoted for my performance. My expertise spans backend
+          engineering with Node.js, Express.js, WebSockets, Redis, REST/gRPC,
+          and databases like PostgreSQL and MongoDB. On the frontend, I work
+          with React.js, Next.js, and Tailwind CSS to deliver clean, modern user
+          experiences. I’ve built projects including a real-time subscription
+          system, WebRTC call platform, crypto exchange, and collaborative
+          applications, blending system design, performance optimization, and
+          full-stack development. I also have experience in machine learning and
+          NLP, working with models such as XGBoost and LightGBM.
         </div>
       </div>
 
