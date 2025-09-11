@@ -45,11 +45,11 @@ export default function AboutMe() {
         <div className="flex flex-col justify-center ">
           <Image
             className="rounded-2xl "
-            src={me}
+            src="/me.png"
             width={400}
-            // height={100}
+            height={100}
             quality={100}
-            alt="Kshitiz Raj - Full-Stack Developer"
+            alt="Kshitiz Raj - Software Engineer at Barclays, Full-Stack Developer, Machine Learning Engineer"
           />
         </div>
       </div>
