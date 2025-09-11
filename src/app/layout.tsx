@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Kshitiz Raj",
+  title: "Kshitiz Raj | Software Engineer Portfolio",
   description:
     "Explore the portfolio of Kshitiz Raj, a Software Engineer at Barclays with expertise in machine learning, React, Next.js, and modern web development.",
   keywords:
@@ -26,11 +26,13 @@ export const metadata: Metadata = {
       "Discover the work of Kshitiz Raj, Software Engineer at Barclays, showcasing skills in machine learning, modern web technologies, and innovative projects.",
     url: "https://kshitizraj.com",
     type: "website",
+    images: ["/me.png"],
   },
   twitter: {
     card: "summary_large_image",
     site: "@_kshitiz_raj",
     title: "Kshitiz Raj",
+    images: ["/me.png"],
     description:
       "Explore the portfolio of Kshitiz Raj, a Barclays Software Engineer specializing in machine learning and web development.",
   },
