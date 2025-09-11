@@ -1,6 +1,4 @@
 import Image from "next/image";
-// import me from "@/Assets/Kshitiz_raj.jpg";
-import me from "@/Assets/_DSC0230.png";
 
 export default function AboutMe() {
   return (
@@ -12,7 +10,7 @@ export default function AboutMe() {
             <span className="underline underline-offset-4 decoration-dashed">
               Kshitiz Raj
             </span>
-            <span className="blinking">!</span> {/* Moved inside the name */}
+            <span className="blinking">!</span> 
           </span>
         </div>
         <span className="typewriter-delayed lg:text-5xl text-primary pt-2  lg:pl-8 underline underline-offset-4 decoration-solid">
