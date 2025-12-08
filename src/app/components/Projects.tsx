@@ -1,11 +1,11 @@
 import Heading from "./Heading";
 import Project from "./Project";
-import muzly from "@/Assets/muzly.png"
-import StreamServer from "@/Assets/streamServer.png"
+import muzly from "@/Assets/muzly.png";
+import StreamServer from "@/Assets/streamServer.png";
 import blogit from "@/Assets/blogit.png";
 // import tictactoe from "@/Assets/tic-tac-toe.png"
-import trade from "@/Assets/trade.png"
-import paytm from "@/Assets/paytm.png"
+import trade from "@/Assets/trade.png";
+import paytm from "@/Assets/paytm.png";
 export default function Projects() {
   return (
     <div id="projects">
@@ -16,9 +16,7 @@ export default function Projects() {
           link="https://github.com/kraj2503/WorkSync"
           image={trade}
           title="Worksync"
-          description={
-            "A worker based model for "∑
-          }
+          description={"A worker based model for "}
         />
 
         <Project
