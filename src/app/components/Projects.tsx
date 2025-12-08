@@ -17,7 +17,7 @@ export default function Projects() {
           image={trade}
           title="Worksync"
           description={
-            "A worker based model for "
+            "A worker based model for "∑
           }
         />
 
