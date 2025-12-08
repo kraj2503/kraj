@@ -12,14 +12,23 @@ export default function Projects() {
       <div className=" py-8 lg:py-12">
         <Heading title={"Projects"} />
 
-        <Project 
-        link="https://github.com/kraj2503/Exchange.git"
-        image={trade}
-        title="Tradosphere"
-        description={
-          "Engineered a high-performance cryptocurrency exchange platform inspired by Backpack.exchange. Designed an API server architecture separating user interactions from the trading engine, with Redis pub/sub and queues ensuring FIFO data flow. Built a market maker bot for realistic volatility, real-time WebSocket updates, and interactive charts. Containerized using Docker Compose with TimescaleDB and Redis, and added a trade simulator for virtual strategy testing."
-        }
-/>
+        <Project
+          link="https://github.com/kraj2503/WorkSync"
+          image={trade}
+          title="Worksync"
+          description={
+            "A worker based model for "
+          }
+        />
+
+        <Project
+          link="https://github.com/kraj2503/Exchange.git"
+          image={trade}
+          title="Tradosphere"
+          description={
+            "Engineered a high-performance cryptocurrency exchange platform inspired by Backpack.exchange. Designed an API server architecture separating user interactions from the trading engine, with Redis pub/sub and queues ensuring FIFO data flow. Built a market maker bot for realistic volatility, real-time WebSocket updates, and interactive charts. Containerized using Docker Compose with TimescaleDB and Redis, and added a trade simulator for virtual strategy testing."
+          }
+        />
         <Project
           link={"https://muzly.kshitizraj.com/"}
           image={muzly}
