@@ -2,10 +2,8 @@ name: Scheduled Vercel Deployment
 
 on:
   schedule:
-    # This runs every 4 hours (UTC)
-    # Format: minute hour day month day-of-week
-    - cron: '0 */4 * * *'
-  workflow_dispatch: # This lets you trigger it manually from the GitHub UI
+    - cron: '1 0 * * *'
+  workflow_dispatch: 
 
 jobs:
   ping-vercel:
