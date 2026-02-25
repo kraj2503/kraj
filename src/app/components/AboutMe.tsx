@@ -10,7 +10,7 @@ export default function AboutMe() {
             <span className="underline underline-offset-4 decoration-dashed">
               Kshitiz Raj
             </span>
-            <span className="blinking">!</span> 
+            <span className="blinking">!</span>
           </span>
         </div>
         <span className="typewriter-delayed lg:text-5xl text-primary pt-2  lg:pl-8 underline underline-offset-4 decoration-solid">
@@ -25,7 +25,7 @@ export default function AboutMe() {
           like PostgreSQL and MySQL and cloud platforms, where I focus on
           creating user-friendly solutions that integrate seamlessly across
           front-end, back-end, and cloud services. */}
-          I’m a Software Engineer at Barclays, where I build machine
+          {/* I’m a Software Engineer at Barclays, where I build machine
           learning–driven solutions and scalable systems. Within seven months of
           joining, I was promoted for my performance. My expertise spans backend
           engineering with Node.js, Express.js, WebSockets, Redis, REST/gRPC,
@@ -35,7 +35,21 @@ export default function AboutMe() {
           system, WebRTC call platform, crypto exchange, and collaborative
           applications, blending system design, performance optimization, and
           full-stack development. I also have experience in machine learning and
-          NLP, working with models such as XGBoost and LightGBM.
+          NLP, working with models such as XGBoost and LightGBM. */}
+          My work as a Software Engineer is primarily focused on full-stack
+          development, where I design and build scalable, end-to-end
+          applications with a strong sense of ownership and system thinking. I
+          enjoy working across the stack—turning ideas into reliable products
+          that balance performance, usability, and maintainability. Alongside my
+          core full-stack work, I actively build AI-powered and agentic
+          applications. I’m particularly interested in systems that can reason
+          over context, make decisions, and coordinate across components rather
+          than simply execute predefined flows. This agent-oriented way of
+          thinking influences how I approach architecture, data flow, and
+          interaction design—even in non-AI systems. Across both areas, I focus
+          on creating software that is thoughtful, adaptable, and built for
+          real-world use, whether that’s a modern web application or an
+          intelligent, agent-driven system.
         </div>
       </div>
 
@@ -47,7 +61,7 @@ export default function AboutMe() {
             width={400}
             height={100}
             quality={100}
-            alt="Kshitiz Raj - Software Engineer at Barclays, Full-Stack Developer, Machine Learning Engineer"
+            alt="Kshitiz Raj - Full-stack engineer building scalable applications and intelligent agent-driven systems."
           />
         </div>
       </div>

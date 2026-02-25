@@ -6,6 +6,7 @@ import blogit from "@/Assets/blogit.png";
 // import tictactoe from "@/Assets/tic-tac-toe.png"
 import trade from "@/Assets/trade.png";
 import paytm from "@/Assets/paytm.png";
+import Jarvis from "@/Assets/Jarvis.png";
 export default function Projects() {
   return (
     <div id="projects">
@@ -13,10 +14,20 @@ export default function Projects() {
         <Heading title={"Projects"} />
 
         <Project
+          link="https://github.com/kraj2503/jarvis"
+          image={Jarvis}
+          title="Jarvis"
+          description={
+            "Jarvis is a governed, multi-agent AI orchestration platform designed with enterprise and regulated-system constraints in mind. It uses a centralized root agent for planning, validation, and memory governance, while coordinating parallel and sequential reasoning pipelines for healthcare and financial use cases. Execution-only capabilities are delegated via agent-to-agent communication, with clear separation between reasoning, execution, and context for scalability, auditability, and reliability. "
+          }
+        />
+        <Project
           link="https://github.com/kraj2503/WorkSync"
-          image={trade}
+          image={StreamServer}
           title="Worksync"
-          description={"A worker based model for "}
+          description={
+            "WorkSync is a modular, event-driven workflow automation platform designed for distributed systems. It enables users to define and trigger workflows based on real-time system and external events, backed by a Kafka-based event pipeline for scalability and reliability. The platform provides secure, multi-tenant orchestration with strong access controls, asynchronous execution, and a responsive interface for monitoring and managing workflows end to end."
+          }
         />
 
         <Project
